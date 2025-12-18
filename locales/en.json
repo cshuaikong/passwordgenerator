@@ -1,0 +1,50 @@
+{
+  "title": "🔐 Password Generator",
+  "nav": {
+    "home": "Generator",
+    "articles": "Security Tips",
+    "language": "Language"
+  },
+  "generator": {
+    "placeholder": "Generated password will appear here",
+    "copy": "Copy",
+    "copied": "✓ Copied",
+    "generate": "🎲 Generate Password",
+    "keywordPlaceholder": "Enter keyword (optional), e.g.: mysite2024"
+  },
+  "options": {
+    "length": "Password Length",
+    "uppercase": "Include Uppercase (A-Z)",
+    "lowercase": "Include Lowercase (a-z)",
+    "numbers": "Include Numbers (0-9)",
+    "symbols": "Include Symbols",
+    "excludeSimilar": "Exclude Similar Characters (i, l, 1, L, o, 0, O)",
+    "excludeAmbiguous": "Exclude Ambiguous Characters",
+    "useKeyword": "Use Keyword Generation",
+    "keywordLabel": "Keyword"
+  },
+  "strength": {
+    "label": "Password Strength:",
+    "weak": "Weak",
+    "medium": "Medium",
+    "strong": "Strong"
+  },
+  "tips": {
+    "title": "💡 Tips",
+    "tip1": "Use at least 12 characters for strong passwords",
+    "tip2": "Mix uppercase, lowercase, numbers and symbols",
+    "tip3": "Avoid using personal information",
+    "tip4": "Use different passwords for different accounts",
+    "tip5": "Keyword generation helps create memorable passwords"
+  },
+  "alerts": {
+    "selectType": "Please select at least one character type!",
+    "copyFailed": "Copy failed, please copy manually"
+  },
+  "articles": {
+    "title": "Password Security Knowledge",
+    "readMore": "Read More",
+    "backToList": "Back to List",
+    "relatedArticles": "Related Articles"
+  }
+}
