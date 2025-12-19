@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n', '@nuxtjs/sitemap'],
   site: {
-    url: 'https://your-domain.com'
+    url: 'https://passwordgenerator.antelopes.workers.dev'
   },
   i18n: {
     locales: [
