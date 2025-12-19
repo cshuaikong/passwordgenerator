@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/i18n'],
+  modules: ['@nuxtjs/i18n', '@nuxtjs/sitemap'],
+  site: {
+    url: 'https://your-domain.com'
+  },
   i18n: {
     locales: [
       { code: 'zh', iso: 'zh-CN', name: '中文' },
@@ -12,6 +15,19 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
     detectBrowserLanguage: false,
     vueI18n: './i18n.config.ts'
+  },
+  sitemap: {
+    sources: [
+      '/api/sitemap'
+    ],
+    // 启用自动i18n支持
+    autoI18n: true,
+    // 自定义站点地图路径前缀（可选）
+    sitemapsPathPrefix: '/sitemap',
+    // 确保包含所有必要的页面
+    include: [
+      '/**'
+    ]
   },
   app: {
     head: {
