@@ -20,7 +20,8 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: '免费在线密码生成器，支持关键字生成、自定义长度、字符类型选择。Free online password generator with keyword support.' },
-        { name: 'format-detection', content: 'telephone=no' }
+        { name: 'format-detection', content: 'telephone=no' },
+        { name: 'google-site-verification', content: 'iKa-kc5KxRLpokOkBeDMVs6fnROGVi5xOyw_9GhkPNI' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
